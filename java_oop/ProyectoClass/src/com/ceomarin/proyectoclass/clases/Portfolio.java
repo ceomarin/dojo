@@ -1,4 +1,4 @@
-package com.ceomarin.proyecto_class.clases;
+package com.ceomarin.proyectoclass.clases;
 import java.util.ArrayList;
 
 public class Portfolio {

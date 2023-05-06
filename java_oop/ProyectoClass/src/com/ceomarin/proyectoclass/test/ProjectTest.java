@@ -1,6 +1,7 @@
-package com.ceomarin.proyecto_class.test;
-import com.ceomarin.proyecto_class.clases.*;
+package com.ceomarin.proyectoclass.test;
 import java.util.ArrayList;
+
+import com.ceomarin.proyectoclass.clases.*;
 
 public class ProjectTest {
 	public static void main(String[] args) {
