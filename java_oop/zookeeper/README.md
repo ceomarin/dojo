@@ -1,4 +1,4 @@
-# zookeeper I
+# ****Guardia del Zoológico: Parte 1****
 
 Una guardia de zoológico le ha pedido ayuda para crear una manera de realizar un seguimiento a los niveles de energía de sus animales. En particular, ella tiene dificultades haciendo un seguimiento a los mamíferos. Cada mamífero debe tener un nivel de energía (predeterminado de 100). Todos deben poder mostrar su nivel de energía cuando se les pregunte a través del método `displayEnergy`, que debe mostrarlo en pantalla y devolver el valor del nivel de energía.
 

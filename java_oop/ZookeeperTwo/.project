@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>zookeeper</name>
+	<name>ZookeeperTwo</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -14,16 +14,9 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>README.md</name>
-			<type>1</type>
-			<location>C:/repos/git/dojo/java_oop/zookeeper/README.md</location>
-		</link>
-	</linkedResources>
 	<filteredResources>
 		<filter>
-			<id>1683387462718</id>
+			<id>1683387462586</id>
 			<name></name>
 			<type>30</type>
 			<matcher>
