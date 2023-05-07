@@ -14,6 +14,13 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>README.md</name>
+			<type>1</type>
+			<location>C:/repos/git/dojo/java_oop/ZookeeperTwo/README.md</location>
+		</link>
+	</linkedResources>
 	<filteredResources>
 		<filter>
 			<id>1683387462586</id>
