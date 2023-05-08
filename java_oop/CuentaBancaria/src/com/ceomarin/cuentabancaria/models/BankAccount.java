@@ -13,6 +13,7 @@ public class BankAccount {
 		this.saldoCuentaCorriente = 0;
 		this.saldoCuentaAhorro = 0;
 		BankAccount.contadorCuentas++;
+		BankAccount.dineroAlmacenado = 0;
 	}
 	
 	private String generarNumeroCuenta() {

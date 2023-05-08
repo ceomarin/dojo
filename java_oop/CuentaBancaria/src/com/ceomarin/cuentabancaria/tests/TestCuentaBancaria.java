@@ -5,6 +5,9 @@ public class TestCuentaBancaria {
 
 	public static void main(String[] args) {
 		BankAccount cuenta1 = new BankAccount();
+		BankAccount cuenta2 = new BankAccount();
+		BankAccount cuenta3 = new BankAccount();
+		BankAccount cuenta4 = new BankAccount();
 		System.out.println("numero cuenta1: "+cuenta1.getNumeroCuenta());
 		System.out.println("Saldo cuenta corriente = "+cuenta1.getSaldoCuentaCorriente());
 		System.out.println("Saldo cuenta ahorro = "+cuenta1.getSaldoCuentaAhorro());
@@ -17,7 +20,7 @@ public class TestCuentaBancaria {
 		System.out.println("Saldo cuenta corriente = "+cuenta1.getSaldoCuentaCorriente());
 		System.out.println("Saldo cuenta ahorro = "+cuenta1.getSaldoCuentaAhorro());
 		System.out.println("Total Almacenado Cuenta Ahorro + Corriente = " + cuenta1.getDineroAlmacenado());
-		
+		System.out.println("Cantidad de cuentas creadas: "+cuenta1.getContadorCuentas());
 
 	}
 
