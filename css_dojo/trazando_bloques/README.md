@@ -1,8 +1,7 @@
 # **Trazando tus Bloques**
 
 Intenta duplicar la siguiente imagen ajustando el código CSS. Usa **margins y paddings** para ajustar los espacios entre divisiones y utiliza la propiedad display para lograr situar cada bloque en el lugar correcto. Tal vez necesites propiedades de CSS adicionales.
-
-![https://assets.codingdojo.com/boomyeah/company_209/chapter_2135/handouts/chapter2135_3264_position-blocks.png](https://assets.codingdojo.com/boomyeah/company_209/chapter_2135/handouts/chapter2135_3264_position-blocks.png)
+![imagen git](img/position-blocks.png)
 
 Este es el código de HTML:
 
