@@ -52,6 +52,24 @@ public class BookService {
 			return null;
 		}
 	}
+	
+	
+	// actualizar la información de un libro
+	public Book updateBook(Book book) {
+		Optional<Book> optionalBook = bookRepository.findById(book.getId());
+		if (optionalBook.isPresent()) {
+			Book bookToUpdate = optionalBook.get();
+			bookToUpdate.setTitle(book.getTitle());
+			bookToUpdate.setDescription(book.getDescription());
+			bookToUpdate.setLanguage(book.getLanguage());
+			bookToUpdate.setNumberOfPages(book.getNumberOfPages());
+
+			bookRepository.save(bookToUpdate);
+			return bookToUpdate;
+		} else {
+			return null;
+		}
+	}
 
 	// Eliminar un libro
 	public void deleteBook(Long id) {
