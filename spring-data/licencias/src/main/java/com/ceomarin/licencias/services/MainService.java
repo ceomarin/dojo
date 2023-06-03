@@ -14,6 +14,13 @@ import com.ceomarin.licencias.repositories.PersonRepository;
 @Service
 public class MainService {
 	private static int contador;
+	
+	private static String numLicenseGenerated() {
+		String str = String.valueOf(++contador);
+		int width = 6;
+		String formatted = String.format("%0" + width + "d", Integer.valueOf(str));
+		return formatted;
+		}
 
 	@Autowired
 	private PersonRepository personRepository;
@@ -44,9 +51,8 @@ public class MainService {
 	}
 	
 	public License createLicense(License l) {
-		l.setNumber(++MainService.contador);
-		System.out.println(l.getExpirationDate());
-		return licenseRepository.save(l);
+		l.setNumber(numLicenseGenerated());
+		return licenseRepository.save(l);		
 	}
 
 	

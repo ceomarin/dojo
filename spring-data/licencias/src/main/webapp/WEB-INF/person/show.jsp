@@ -33,7 +33,7 @@
 					<div class="card">
 						<div class="card-body">
 							<h5 class="card-title">License Number</h5>
-							<p class="card-text">00${ person.getLicense().getNumber() }</p>
+							<p class="card-text">${ person.getLicense().getNumber() }</p>
 						</div>
 					</div>
 				</div>

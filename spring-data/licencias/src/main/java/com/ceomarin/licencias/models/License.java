@@ -23,7 +23,7 @@ public class License {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	private int number;
+	private String number;
 	
 	@DateTimeFormat(pattern = "yyyy-MM-dd")
 	private Date expirationDate;
@@ -37,7 +37,7 @@ public class License {
 	@OneToOne(fetch = FetchType.LAZY)
 	@JoinColumn(name = "person_id")
 	private Person person;
-
+	
 	public License() {
 
 	}
@@ -48,12 +48,12 @@ public class License {
 		this.state = state;
 		this.person = person;
 	}
-
-	public int getNumber() {
+	
+	public String getNumber() {
 		return number;
 	}
 
-	public void setNumber(int number) {
+	public void setNumber(String number) {
 		this.number = number;
 	}
 
